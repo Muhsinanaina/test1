@@ -1,0 +1,310 @@
+*{
+    margin: 0px;
+}
+
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    background-color: rgb(247, 219, 209);
+    z-index: 2;
+
+   
+}
+#logo{
+    margin-left: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: -80px;
+    margin-right: 20px;
+    
+}
+
+li {
+    margin: 10px 15px 0 15px;
+   
+   
+   
+}
+
+a {
+    text-decoration: none;
+    color: rgb(81, 120, 159);
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    
+}
+
+/* Change color on hover */
+a:hover {
+    color: palevioletred;
+}
+
+.header{
+    background-image: url(https://images.pexels.com/photos/3278215/pexels-photo-3278215.jpeg?cs=srgb&dl=pexels-oleksandr-p-3278215.jpg&fm=jpg);
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+h1{
+    position: absolute;
+    top: 55%;
+    left: 70%;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+    color: #040404;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+   
+}
+#b1{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 540px;
+}
+#b2{
+    text-align: center;
+}
+#b3{
+    text-align: center;
+}
+#cimg{
+    object-fit: cover;
+    height: 450px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%);
+    width: 100%; */
+    text-align: center;
+}
+.carousel-caption h2 {
+    font-size: 3rem;
+    color: #fff; 
+    font-style: italic;
+  }
+  .videoandgrid{
+    margin-top: 10px;
+    height:700px;
+    display: flex;
+  }
+  .video{
+    margin-left: 5px;
+    position: relative;
+    width: 58%;
+    margin-top: 10px;
+    padding-bottom: 56.25%; 
+    margin-bottom: 20px;
+  }
+  .video iframe{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60%;
+
+  }
+  .grid-container {
+    margin-top: 3px;
+    margin-left:15px;
+    width: 30%;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: .1px; /* Gap between grid items */
+  }
+  
+  .grid-item {
+    width: 50%;
+    height: auto;
+    row-gap: 2px;
+    padding: 10px;
+  
+  }
+  #images{
+    width:230px;
+    height: 200px;
+  }
+  .image-container2 {
+    
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;/* Allow images to wrap to the next line if needed */
+  }
+  
+
+  #head2{
+    /* margin-top: 10px; */
+    text-align: center;
+  
+  }
+  h6{
+    text-align: center;
+    font-family: cursive;
+    color: rgb(205, 107, 42);
+    font-style: italic;
+    font-size: 30px;
+  }
+  #gridimg2{
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    height:350px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+    
+  .card2{
+    border-radius: 20px;
+    border: 1px solid;
+    color: rgb(131, 133, 138);
+    gap: 10px;
+  }
+
+  #gridimg3{
+    text-align: center;
+    align-items: center;
+    width: 200px;
+    height:200px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 150px;
+  }
+    
+  .card3{
+    height: 350px;
+    border-radius: 70px;
+    background-color: rgb(232, 237, 238);
+    color: rgb(131, 133, 138);
+  }
+  
+ 
+  #ref1{
+    color: rgb(16, 16, 17);
+    text-align: center;
+  }
+  /* lkjhgguggh */
+  /* kfdyugfgu */
+  /* testimonial section */
+
+.testimonial .customer {
+  font-family: 'Send Flowers', cursive;
+  font-size: 1.5em;
+  color: rgb(58, 86, 171);
+  font-weight: bold;
+
+}
+
+.testimonial-content {
+  width: 60%;
+}
+
+.testimonial-content h5 {
+  text-align: center;
+
+}
+
+.testimonial-content p {
+  text-align: justify;
+}
+
+/* footer section */
+.links-list{
+  height: auto;
+  width: 200px;
+  display: block;
+  margin-top: 30px;
+ 
+ 
+
+}
+
+/* Example styling for the anchor tags */
+.links-list li a {
+  width: 200px;
+  text-decoration: none; /* Remove default underline */
+  color: #fceeee; /* Set link color */
+  display: block;
+  text-align: start; 
+  margin-left: 60px;/* Display links as blocks for better spacing */
+}
+
+/* Example styling for hover effect */
+.links-list li a:hover {
+  color: #d9933e; /* Change color on hover */
+}
+.footer-main {
+  background-color:#0F254E;
+  color: white;
+  padding-top: 2rem;
+  height: 300px;
+}
+.footer-main .about h5{
+  margin-left: 14%;
+  color: darkorange;
+  
+}
+
+/* .footer-main .about ul a{
+  text-decoration: none;
+  list-style: none;
+  
+}
+.footer-main .about ul li{
+  margin-top: 0.7em;
+  color: white;
+  font-size: larger;
+}
+.footer-main .about ul li:hover{
+  color:rgb(221, 108, 67) ;
+
+} */
+.footer-main .about{
+  margin-left: 20%;
+}
+
+.footer-image img{
+  
+  width: 40%;
+
+}
+.icons{
+  width: 300px;
+  margin-left: 38%;
+}
+.footer-main .social-media h5{
+  margin-left: 55%;
+  color: darkorange;
+}
+.footer-main .social-media i{
+  padding-left: 1em;
+  color: white;
+}
+.footer-main .social-media i:hover{
+  color: red;
+}
+#footerp{
+  text-align: center;
+  margin-top: -30px;
+}
+.footerimg{
+  width: 100px;
+  
+}
+.lastimg{
+  margin-top: -20px;
+}
